@@ -9,39 +9,49 @@ const NavBar = () => {
     {
       id: 1,
       link: "home",
+      name: "Home"
     },
     {
       id: 2,
       link: "about",
+      name: "About"
     },
     {
       id: 3,
       link: "portfolio",
+      name: "Portfolio"
     },
     {
       id: 4,
-      link: "experience",
+      link: "skills",
+      name: "Skills"
     },
     {
       id: 5,
+      link: "workexperience",
+      name: "Work Experience"
+    },
+    {
+      id: 6,
       link: "contact",
+      name: "Contact"
     },
   ];
 
   return (
       <div className="flex flex-wrap justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
           <div>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-signature ml-2">Pratik Sahu</h1>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-monaco ml-2">Pratik Sahu</h1>
           </div>
 
           <ul className="hidden md:flex">
-              {links.map(({ id, link }) => (
+              {links.map(({ id, link, name }) => (
                   <li
                       key={id}
                       className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
                   >
                       <Link to={link} smooth duration={500}>
-                          {link}
+                          {name}
                       </Link>
                   </li>
               ))}

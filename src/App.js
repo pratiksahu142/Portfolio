@@ -3,7 +3,8 @@ import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import WorkExperience from "./components/WorkExperience";
 import Contact from "./components/Contact";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <About/>
       <Portfolio/>
       <SocialLinks/>
-      <Experience/>
+      <Skills/>
+      <WorkExperience/>
       <Contact/>
     </div>
   );

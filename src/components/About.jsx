@@ -11,21 +11,15 @@ function About() {
                 </div>
                 <div>
                     <p className='text-xl mt-10 lg:mt-20'>
-                        Passionate about Software development and currently a graduate student at Northeastern University. After the completion of my Bachelor from GTU Gujarat, India, I worked for TechNeos Solutions, Ahmedabad, India for 6 months as a Software Developer Intern. I have a track record of developing code and digital solutions using cutting-edge technologies for startups. Other than that, I was also responsible for support where it needed to resolve defects in real-time.
+                        With 4 years of experience as a Backend Developer and a solid understanding of Software Development, I am currently pursuing my MSCS at Northeastern University, Boston. I am actively looking for full-time SWE roles where my passion for Backend Development and DevOps can thrive.
                     </p>
                     <br/>
-                    <p className='text-xl w-120'>
-                        My expertise lies in the following:
-                        <br/>
-
-                        <b className='text-blue-500'>Programming Languages:</b> <span>Java, JavaScript, Typescript, Python, Object-Oriented Design</span>
-                        <br/>
-                        <b className='text-blue-500'>Databases:</b> <span>MySQL, MongoDB, PostgreSQL</span>
-                        <br/>
-                        <b className='text-blue-500'>Technologies:</b> <span>HTML5, CSS3, Bootstrap5, Hibernate, Spring, Spring-boot, Express, NodeJS, ReactJS, Redux, JSON, RESTful APIs, Swing, XML</span>
-                        <br/>
-                        <b className='text-blue-500'>Software/Tools:</b> <span>Postman, IntelliJ, Tomcat, VS Code, Jira, DevOps, Github Actions, CI/CD, Docker, ETL, TDD, Maven, Git, Junit</span><br/>
-                        <b className='text-blue-500'>Cloud Technology:</b> <span>EC2, S3, CloudFront, RDS, Cloudwatch, AWS Lambda, CloudFront, IAM, Metrics, AMI, User Data, Terraform, Packer</span><br/>
+                    <p className='text-xl'>
+                        In every project, my ultimate goal is to get involved in the design and development of software that truly benefits the end user. The ever-evolving nature of software development excites me, as there is always something new to discover.
+                    </p>
+                    <br/>
+                    <p className='text-xl'>
+                        If you have exciting and challenging opportunities in the Software Industry, I'm eager to connect and explore how my skills and interests align. Let's create amazing software together!
                     </p>
                 </div>
             </div>

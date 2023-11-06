@@ -1,8 +1,8 @@
 import React from 'react'
-import tsp from '../assets/portfolio/TSP.png'
-import cloudinfra from "../assets/portfolio/cloudInfra.png"
+import airbnbClone from '../assets/portfolio/airbnb-clone.png'
+import djangoBlog from "../assets/portfolio/DjangoBlog.png"
 import stockApp from "../assets/portfolio/stockApp.png"
-import DataWarehouse from "../assets/portfolio/DataWarehouse.png"
+import inventoryManagement from "../assets/portfolio/inventoryManagement.png"
 
 function Portfolio() {
     const handleDemoUrl = (url) => {
@@ -12,52 +12,61 @@ function Portfolio() {
         {
             id: 1,
             src: stockApp,
-            url: "https://github.com/Rohit-hooda/StockBroker",
-            codeurl: "https://github.com/Rohit-hooda/StockBroker"
+            url: "https://github.com/pratiksahu142/StockBroker",
+            codeurl: "https://github.com/pratiksahu142/StockBroker",
+            name: "Stocks Management Application",
+            description: "A Java Swing based application to practice various Programming Design Patterns",
         },
         {
             id: 2,
-            src: tsp,
-            url: "https://github.com/Rohit-hooda/ticket-reselling-app",
-            codeurl: "https://github.com/Rohit-hooda/ticket-reselling-app"
+            src: airbnbClone,
+            url: "https://github.com/pratiksahu142/airbnb-clone",
+            codeurl: "https://github.com/pratiksahu142/airbnb-clone",
+            name: "Wanderwise - An AirBnb clone",
+            description: "A full-stack ReactJS based Web application with Express for the backend"
         },
         {
             id: 3,
-            src: DataWarehouse,
-            url: "https://github.com/Rohit-hooda/Pubmed_DataWarehouse",
-            codeurl: "https://github.com/Rohit-hooda/Pubmed_DataWarehouse"
+            src: inventoryManagement,
+            url: "https://github.com/pratiksahu142/inventory-management-system",
+            codeurl: "https://github.com/pratiksahu142/inventory-management-system",
+            name: "Inventory Management Application",
+            description: "A Springboot & ReactJS based Web app to practice Circuit breaker libraries in resilient distributed systems"
         },
         {
             id: 4,
-            src: cloudinfra,
-            url: "https://github.com/Rohit-hooda/aws-infra",
-            codeurl: "https://github.com/Rohit-hooda/aws-infra"
+            src: djangoBlog,
+            url: "https://github.com/pratiksahu142/django-blog-app",
+            codeurl: "https://github.com/pratiksahu142/django-blog-app",
+            name: "Blog App",
+            description: "Django Practice Application"
         },
     ]
 
     return (
         <div name='portfolio'
              className='display flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 w-max-content mx-auto h-max-content text-white md:h-screen'>
-            <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
+            <div className='max-w-screen-lg mx-auto p-0 flex flex-col justify-center w-full h-full'>
+                <div className='pb-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
                         Portfolio
                     </p>
-                    <p className='py-6'>Checkout some of my work right here</p>
+                    <p className='py-6 font-bold'>Checkout some of my work right here, click to see the code on Github</p>
                 </div>
 
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-2 sm:px-0'>
                     {
-                        portfolio.map(({id, src, url, codeurl}) => (
+                        portfolio.map(({id, src, url, codeurl, name, description}) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt=""
                                      className='rounded-md duration-200 hover:105'/>
-                                <div className='flex items-center justify-center'>
+                                <div className='flex-col items-center justify-center'>
                                     {/*<button onClick={() => handleDemoUrl(url)} className='w-1/2 px-6 py-3 mt-4 text-center text-white hover:scale-105 duration-200'>Demo</button>*/}
                                     <button onClick={() => handleDemoUrl(codeurl)}
-                                            className='w-1/2 px-6 py-3 mt-4 text-center text-white hover:scale-105 duration-200'>Code
+                                            className='w-full px-6 py-2 mt-3 text-center text-blue-400 hover:scale-105 duration-200'>{name}
                                     </button>
+                                    <p className='text-xs py-1 px-2'>{description}</p>
                                 </div>
                             </div>
                         ))

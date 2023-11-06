@@ -14,7 +14,7 @@ function SocialLinks() {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href:"https://www.linkedin.com/in/rohithooda/",
+            href:"https://www.linkedin.com/in/pratiksahu051752116/",
             style: 'rounded-tr-md'
         },
         {
@@ -24,7 +24,7 @@ function SocialLinks() {
                 Github <FaGithub size={30} />
                 </>
             ),
-            href:"https://github.com/Rohit-hooda",
+            href:"https://github.com/pratiksahu142",
         },
         {
             id: 3,
@@ -33,7 +33,7 @@ function SocialLinks() {
                 Mail <HiOutlineMail size={30} />
                 </>
             ),
-            href:"mailto:hooda.r@northeastern.edu",
+            href:"mailto:pratikrajendrasahu@gmail.com",
         },
         {
             id: 4,
@@ -42,7 +42,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href:"https://drive.google.com/file/d/17ocxrI790afnKYC4uR83J84M2n6fL6Vs/view?usp=sharing",
+            href:"https://drive.google.com/file/d/11wq95RwrdfvsKHPd-UVJtcZO0slmkoUy/view?usp=sharing",
             style: 'rounded-tr-md',
             download:true,
         },
@@ -53,7 +53,7 @@ function SocialLinks() {
                 Leetcode <SiLeetcode size={30} />
                 </>
             ),
-            href:"https://leetcode.com/rohithooda1999/",
+            href:"https://leetcode.com/pratiksahu142/",
             style: 'rounded-tr-md',
             download:true,
         },
