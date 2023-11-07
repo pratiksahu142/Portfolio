@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.509c2be9.css",
-    "main.js": "/Portfolio/static/js/main.3853d5f7.js",
+    "main.css": "/Portfolio/static/css/main.290c3852.css",
+    "main.js": "/Portfolio/static/js/main.450091ab.js",
     "static/media/airbnb-clone.png": "/Portfolio/static/media/airbnb-clone.9c2962dce25afe1d9aa8.png",
     "static/media/activemq.png": "/Portfolio/static/media/activemq.59cc0d612129f8c69a15.png",
     "static/media/json.png": "/Portfolio/static/media/json.82fd05ef152a08b44c8e.png",
@@ -43,13 +43,14 @@
     "static/media/azure.png": "/Portfolio/static/media/azure.c5c40f545033dcfc9754.png",
     "static/media/ansible.png": "/Portfolio/static/media/ansible.57f18865010e9d96a99d.png",
     "static/media/django.png": "/Portfolio/static/media/django.2e57b5942b4414fe00e7.png",
+    "static/media/logoicon.png": "/Portfolio/static/media/logoicon.2b1b540ed7fc81160ffc.png",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
-    "main.509c2be9.css.map": "/Portfolio/static/css/main.509c2be9.css.map",
-    "main.3853d5f7.js.map": "/Portfolio/static/js/main.3853d5f7.js.map"
+    "main.290c3852.css.map": "/Portfolio/static/css/main.290c3852.css.map",
+    "main.450091ab.js.map": "/Portfolio/static/js/main.450091ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.509c2be9.css",
-    "static/js/main.3853d5f7.js"
+    "static/css/main.290c3852.css",
+    "static/js/main.450091ab.js"
   ]
 }
