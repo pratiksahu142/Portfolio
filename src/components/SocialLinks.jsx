@@ -14,7 +14,7 @@ function SocialLinks() {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href:"https://www.linkedin.com/in/pratiksahu051752116/",
+            href:"https://www.linkedin.com/in/pratik-sahu-051752116",
             style: 'rounded-tr-md'
         },
         {
@@ -31,16 +31,6 @@ function SocialLinks() {
             id: 3,
             child: (
                 <>
-                Mail <HiOutlineMail size={30} />
-                </>
-            ),
-            href:"mailto:pratikrajendrasahu@gmail.com",
-            style: 'rounded-tr-md',
-        },
-        {
-            id: 4,
-            child: (
-                <>
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
@@ -49,7 +39,7 @@ function SocialLinks() {
             download:true,
         },
         {
-            id: 5,
+            id: 4,
             child: (
                 <>
                 Leetcode <SiLeetcode size={30} />
