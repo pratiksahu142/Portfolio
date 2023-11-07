@@ -45,7 +45,7 @@ function Portfolio() {
 
     return (
         <div name='portfolio'
-             className='display flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-400 w-max-content mx-auto h-max-content text-white md:h-screen'>
+             className='display flex flex-col justify-center items-center bg-gradient-to-b from-gray-400 to-gray-900 w-max-content mx-auto h-max-content text-white md:h-screen'>
             <div className='max-w-screen-lg mx-auto p-0 flex flex-col justify-center w-full h-full'>
                 <div className='pb-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-orange-500'>

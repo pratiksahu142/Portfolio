@@ -345,7 +345,7 @@ function Skills() {
     return (
         <div
             name="skills"
-            className="bg-gradient-to-b from-gray-400 to-gray-900 w-max-content mx-auto h-max-content"
+            className="bg-gradient-to-b from-gray-900 to-gray-400 w-max-content mx-auto h-max-content"
         >
             <div
                 className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
