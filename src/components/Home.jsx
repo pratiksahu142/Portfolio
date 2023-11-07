@@ -15,16 +15,14 @@ const Home = () => {
         <div name="home"
              className="flex flex-col justify-center min-h-screen w-full bg-gradient-to-b from-gray-900 to-gray-400">
             <div
-                className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
+                className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-2">
                 <div className="flex flex-col justify-center h-full md:w-1/2">
-                    <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
-                        I'm a Software Engineer
+                    <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold">
+                        I'm a  <span className='text-orange-500'>{'Software Engineer'}</span>
                     </h2>
                     <p className="text-white py-4 max-w-md text-lg">
-                        I'm a passionate developer who is always looking for new challenges. I love
-                        learning new things and building things.
-                        I have Experience in MERN stack, Java Frameworks, Frontend/Backend/Cloud
-                        Technologies, and DevOps
+                        Crafting <span className='text-orange-500'>{'<code/>'}</span> that brings ideas to life, I'm a software engineer with a passion for turning
+                        innovation into reality. Let's build the future, one line at a time.
                     </p>
                     <div>
                         <Link
@@ -57,7 +55,7 @@ const Home = () => {
                 </div>
                 <div>
                     <img src={HeroImage} alt="My profile"
-                         className="rounded-2xl mx-auto w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2"/>
+                         className="rounded-2xl border-8 border-white mx-auto w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2"/>
                 </div>
             </div>
         </div>

@@ -11,15 +11,28 @@ function About() {
                 </div>
                 <div>
                     <p className='text-xl mt-10 lg:mt-20'>
-                        With 4 years of experience as a Backend Developer and a solid understanding of Software Development, I am currently pursuing my MSCS at Northeastern University, Boston. I am actively looking for full-time SWE roles where my passion for Backend Development and DevOps can thrive.
+                        With <strong>4+</strong> years of experience as a Software Engineer and a solid understanding of Software Development,
+                        I am currently pursuing my M.S. in Computer Science at Northeastern University, Boston.
+                        I am actively looking for <strong>full-time Software Engineer</strong> roles where my passion for Backend Development and
+                        Large-Scale Distributed Systems can thrive. My interest lies in developing resilient,
+                        and scalable enterprise applications that efficiently serve millions of users.
+                        </p>
+                    <br/>
+                    <p className='text-xl'>
+                        I love collaborating with a team, fostering mutual learning and growth. While I enjoy
+                        contributing as a team member, I also relish leading decisions, designing solutions, and taking
+                        charge of development. After gaining experience across various projects and organizations, I've
+                        honed my ability to quickly adapt and implement new skills.
                     </p>
                     <br/>
                     <p className='text-xl'>
-                        In every project, my ultimate goal is to get involved in the design and development of software that truly benefits the end user. The ever-evolving nature of software development excites me, as there is always something new to discover.
+                        In every project, my ultimate goal is to create software that genuinely benefits end-users.
+                        The ever-evolving nature of software development excites me, as there is always something new to discover.
                     </p>
                     <br/>
                     <p className='text-xl'>
-                        If you have exciting and challenging opportunities in the Software Industry, I'm eager to connect and explore how my skills and interests align. Let's create amazing software together!
+                        If you have exciting and challenging opportunities in the Software Industry, I'm eager to connect
+                        and explore how my skills and interests align. Let's create amazing software together!
                     </p>
                 </div>
             </div>
