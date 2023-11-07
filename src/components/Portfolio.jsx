@@ -45,10 +45,10 @@ function Portfolio() {
 
     return (
         <div name='portfolio'
-             className='display flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 w-max-content mx-auto h-max-content text-white md:h-screen'>
+             className='display flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-400 w-max-content mx-auto h-max-content text-white md:h-screen'>
             <div className='max-w-screen-lg mx-auto p-0 flex flex-col justify-center w-full h-full'>
                 <div className='pb-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
+                    <p className='text-4xl font-bold inline border-b-4 border-orange-500'>
                         Portfolio
                     </p>
                     <p className='py-6 font-bold'>Checkout some of my work right here, click to see the code on Github</p>
@@ -64,7 +64,7 @@ function Portfolio() {
                                 <div className='flex-col items-center justify-center'>
                                     {/*<button onClick={() => handleDemoUrl(url)} className='w-1/2 px-6 py-3 mt-4 text-center text-white hover:scale-105 duration-200'>Demo</button>*/}
                                     <button onClick={() => handleDemoUrl(codeurl)}
-                                            className='w-full px-6 py-2 mt-3 text-center text-blue-400 hover:scale-105 duration-200'>{name}
+                                            className='w-full px-6 py-2 mt-3 text-center font-bold text-orange-500 hover:scale-105 duration-200'>{name}
                                     </button>
                                     <p className='text-xs py-1 px-2'>{description}</p>
                                 </div>

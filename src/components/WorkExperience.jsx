@@ -66,10 +66,10 @@ function WorkExperience() {
 
     return (
         <div name='workexperience'
-             className='display flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 w-max-content mx-auto h-max-content text-white md:h-screen'>
+             className='display flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-gray-400 w-max-content mx-auto h-max-content text-white md:h-screen'>
             <div className='max-w-screen-lg mx-auto p-0 flex flex-col justify-center w-full h-full'>
                 <div className='pb-4 mb-2'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
+                    <p className='text-4xl font-bold inline border-b-4 border-orange-500'>
                         Work Experience
                     </p>
                 </div>
@@ -81,8 +81,8 @@ function WorkExperience() {
                                     <img src={src} alt="" className='p-2 rounded-md h-30 w-full duration-200 hover:105'/>
                                     <div className='flex-col items-center text-center justify-center'>
 
-                                        <p className='text-sm font-bold text-blue-400 py-1 px-3 hover:scale-105 duration-200'>{role}</p>
-                                        <p className='text-xs text-blue-200 py-1 px-3'>{duration}</p>
+                                        <p className='text-sm font-bold text-orange-500 py-1 px-3 hover:scale-105 duration-200'>{role}</p>
+                                        <p className='text-xs py-1 px-3'>{duration}</p>
                                     </div>
                                 </div>
                                 <div className='flex-col items-center col-span-3 pt-3 pb-2'>

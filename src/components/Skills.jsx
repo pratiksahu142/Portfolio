@@ -345,12 +345,12 @@ function Skills() {
     return (
         <div
             name="skills"
-            className="bg-gradient-to-b from-gray-800 to-black w-max-content mx-auto h-max-content"
+            className="bg-gradient-to-b from-gray-400 to-gray-900 w-max-content mx-auto h-max-content"
         >
             <div
                 className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div className='pb-6'>
-                    <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
+                    <p className="text-4xl font-bold border-b-4 border-orange-500 inline">
                         Skills
                     </p>
                 </div>

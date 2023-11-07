@@ -13,14 +13,14 @@ const Home = () => {
 
     return (
         <div name="home"
-             className="flex flex-col justify-center min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+             className="flex flex-col justify-center min-h-screen w-full bg-gradient-to-b from-gray-900 to-gray-400">
             <div
                 className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
                 <div className="flex flex-col justify-center h-full md:w-1/2">
                     <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
                         I'm a Software Engineer
                     </h2>
-                    <p className="text-gray-500 py-4 max-w-md text-lg">
+                    <p className="text-white py-4 max-w-md text-lg">
                         I'm a passionate developer who is always looking for new challenges. I love
                         learning new things and building things.
                         I have Experience in MERN stack, Java Frameworks, Frontend/Backend/Cloud
@@ -31,7 +31,7 @@ const Home = () => {
                             to="portfolio"
                             smooth
                             duration={500}
-                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-300 to-orange-600 cursor-pointer"
                         >
                             Projects Portfolio
                             <span className="group-hover:rotate-90 duration-300">
@@ -41,7 +41,7 @@ const Home = () => {
                         <span>
           <button
               onClick={() => handleDemoUrl()}
-              className="bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:text-black text-white py-2 px-4 rounded inline-flex items-center"
+              className="bg-gradient-to-r from-orange-300 to-orange-600 cursor-pointer hover:text-black text-white py-2 px-4 rounded inline-flex items-center"
           >
             <svg
                 className="fill-current w-9 h-6 mr-2"

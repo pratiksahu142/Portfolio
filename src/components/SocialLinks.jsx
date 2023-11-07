@@ -25,6 +25,7 @@ function SocialLinks() {
                 </>
             ),
             href:"https://github.com/pratiksahu142",
+            style: 'rounded-tr-md',
         },
         {
             id: 3,
@@ -34,6 +35,7 @@ function SocialLinks() {
                 </>
             ),
             href:"mailto:pratikrajendrasahu@gmail.com",
+            style: 'rounded-tr-md',
         },
         {
             id: 4,
@@ -65,7 +67,7 @@ function SocialLinks() {
 
         {links.map(({id,child,href,style,download})=>(
             
-            <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'+" "+style}>
+            <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-orange-400 to-orange-600'+" "+style}>
              <a
               href={href}
               className="flex justify-between items-center w-full text-white"
