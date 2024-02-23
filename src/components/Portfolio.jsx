@@ -1,6 +1,7 @@
 import React from 'react'
 import airbnbClone from '../assets/portfolio/airbnb-clone.png'
 import djangoBlog from "../assets/portfolio/DjangoBlog.png"
+import graphQLProject from "../assets/portfolio/graphQLProject.png"
 import stockApp from "../assets/portfolio/stockApp.png"
 import inventoryManagement from "../assets/portfolio/inventoryManagement.png"
 
@@ -40,6 +41,14 @@ function Portfolio() {
             codeurl: "https://github.com/pratiksahu142/django-blog-app",
             name: "Blog App",
             description: "Django Practice Application"
+        },
+        {
+            id: 5,
+            src: graphQLProject,
+            url: "https://github.com/pratiksahu142/graphql-project-management-project",
+            codeurl: "https://github.com/pratiksahu142/graphql-project-management-project",
+            name: "Project Management GraphQL App",
+            description: "Project Management Web App with Node.js, GraphQL, MongoDB, and React"
         },
     ]
 
