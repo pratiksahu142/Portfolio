@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.dce349c2.css",
-    "main.js": "/Portfolio/static/js/main.139bfb30.js",
+    "main.js": "/Portfolio/static/js/main.6d6545ec.js",
     "static/media/airbnb-clone.png": "/Portfolio/static/media/airbnb-clone.9c2962dce25afe1d9aa8.png",
     "static/media/activemq.png": "/Portfolio/static/media/activemq.59cc0d612129f8c69a15.png",
     "static/media/json.png": "/Portfolio/static/media/json.82fd05ef152a08b44c8e.png",
     "static/media/jenkins.png": "/Portfolio/static/media/jenkins.35b85f26d1809931e7a5.png",
+    "static/media/graphQLProject.png": "/Portfolio/static/media/graphQLProject.6dac0baddc0f7c170e46.png",
     "static/media/DjangoBlog.png": "/Portfolio/static/media/DjangoBlog.471f48b591cead6ee591.png",
     "static/media/statestreet.png": "/Portfolio/static/media/statestreet.3d0b5cddaede8fb9974b.png",
     "static/media/springintegration.png": "/Portfolio/static/media/springintegration.7d383ea09bf22625f643.png",
@@ -47,10 +48,10 @@
     "static/media/javascript.png": "/Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio/index.html",
     "main.dce349c2.css.map": "/Portfolio/static/css/main.dce349c2.css.map",
-    "main.139bfb30.js.map": "/Portfolio/static/js/main.139bfb30.js.map"
+    "main.6d6545ec.js.map": "/Portfolio/static/js/main.6d6545ec.js.map"
   },
   "entrypoints": [
     "static/css/main.dce349c2.css",
-    "static/js/main.139bfb30.js"
+    "static/js/main.6d6545ec.js"
   ]
 }
