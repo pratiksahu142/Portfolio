@@ -4,6 +4,7 @@ import djangoBlog from "../assets/portfolio/DjangoBlog.png"
 import graphQLProject from "../assets/portfolio/graphQLProject.png"
 import stockApp from "../assets/portfolio/stockApp.png"
 import inventoryManagement from "../assets/portfolio/inventoryManagement.png"
+import urlShortener from "../assets/portfolio/url-shortener.png"
 
 function Portfolio() {
     const handleDemoUrl = (url) => {
@@ -49,6 +50,14 @@ function Portfolio() {
             codeurl: "https://github.com/pratiksahu142/graphql-project-management-project",
             name: "Project Management GraphQL App",
             description: "Project Management Web App with Node.js, GraphQL, MongoDB, and React"
+        },
+        {
+            id: 6,
+            src: urlShortener,
+            url: "https://github.com/pratiksahu142/url-shortener-aws",
+            codeurl: "https://github.com/pratiksahu142/url-shortener-aws",
+            name: "URL Shortener Serverless App",
+            description: "URL Shortener Web App using AWS DynamoDB, AWS Lambda and AWS API Gateway"
         },
     ]
 
