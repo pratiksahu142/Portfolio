@@ -34,7 +34,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href:"https://drive.google.com/file/d/1U_hcf0T5K7xObgtRGQiZC-YyUz9hCIkj/view?usp=sharing",
+            href:"https://drive.google.com/file/d/1hMH1irpyEMG1AJTMGH8aAD-zxFf7oJep/view?usp=sharing",
             style: 'rounded-tr-md',
             download:true,
         },

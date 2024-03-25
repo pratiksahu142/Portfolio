@@ -7,7 +7,7 @@ const Home = () => {
 
     const handleDemoUrl = () => {
         window.open(
-            "https://drive.google.com/file/d/1U_hcf0T5K7xObgtRGQiZC-YyUz9hCIkj/view?usp=sharing",
+            "https://drive.google.com/file/d/1hMH1irpyEMG1AJTMGH8aAD-zxFf7oJep/view?usp=sharing",
             '_blank')
     }
 
